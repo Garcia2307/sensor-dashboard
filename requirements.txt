@@ -1,6 +1,6 @@
 dash
 plotly
 pandas
-serial
+pyserial
 numpy
 gunicorn

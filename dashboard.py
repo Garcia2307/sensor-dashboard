@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import dash
 from dash import dcc, html, Input, Output, State
 import plotly.graph_objs as go
@@ -202,15 +196,6 @@ def update_dashboard(n, selected_range, live_mode):
 
 if __name__ == '__main__':
     app.run_server(host='0.0.0.0', port=8080, debug=True)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
